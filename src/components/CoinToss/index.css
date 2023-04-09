@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+.app-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.coin-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-radius: 10px;
+}
+
+.heading {
+  color: #a35200;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin-bottom: 5px;
+}
+
+.title {
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+
+.coin-image {
+  height: 200px;
+  width: 200px;
+}
+
+.button-element {
+  background-color: #f9d423;
+  color: #a35200;
+  font-weight: 800;
+  font-family: 'Roboto';
+  font-size: 12px;
+  border-radius: 5px;
+  padding: 7px;
+  border: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.total {
+  font-weight: 500;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
